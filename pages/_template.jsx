@@ -8,7 +8,6 @@ import '../css/markdown-styles'
 import { rhythm } from '../utils/typography'
 import Profile from 'components/Profile'
 import Navbar from 'components/Navbar'
-import { StickyContainer, Sticky } from 'react-sticky';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import NavbarItems from 'components/NavbarItems'
 import Index from './Index'
@@ -34,7 +33,6 @@ module.exports = React.createClass({
 
     return (
 
-        <StickyContainer> 
           <div style = {{marginBottom: '5%'}}
           >
 
@@ -67,7 +65,6 @@ module.exports = React.createClass({
                 </div>
           </div>
           </div>
-        </StickyContainer>
     )
   },
 })
