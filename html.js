@@ -33,13 +33,13 @@ module.exports = React.createClass({
           {head.title.toComponent()}
           {head.meta.toComponent()}
           <TypographyStyle typography={typography} />
-          <link rel="shortcut icon" type="image/png" href="./components/favicon.ico"/>
+          <link rel="shortcut icon" type="image/png" href="components/favicon.ico"/>
           <GoogleFont typography={typography} />
           {css}
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
-          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script src={prefixLink(`/bundle.js`)} />
         </body>
       </html>
     )

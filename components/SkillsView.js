@@ -4,11 +4,10 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from "react-helmet"
 import { config } from 'config'
 import Job from 'components/Job'
-import Product from "./pm.png"
-import Python from "./python.png"
-import WebDev from "./webdev.png"
-import Sketch from "./sketch.png"
-import Coursera from "./coursera.png"
+import Product from "components/pm.png"
+import Python from "components/python.png"
+import WebDev from "components/webdev.png"
+import Sketch from "components/sketch.png"
 
 
 import Divider from 'components/Divider'

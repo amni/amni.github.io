@@ -4,19 +4,12 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from "react-helmet"
 import { config } from 'config'
 import Job from 'components/Job'
-import Gboard from "./gboard.jpeg"
-import AdMob from "./admob.png"
-import SMSmart from "./smsmart.png"
-import KPCB from "./kpcb.png"
-import Mindfulness from "./mindfulness.png"
-import Basketball from "./basketball.png"
-import Reading from "./reading.png"
-import TeamOfRivals from "./teamofrivals.jpg"
-import YCombinator from "./ycombinator.jpg"
-import Alchemist from "./thealchemist.jpeg"
-import WBW from "./wbw.png"
-import DoingGood from "./doinggoodbetter.jpg"
-import SelfReliance from "./selfreliance.jpg"
+import TeamOfRivals from "components/teamofrivals.jpg"
+import YCombinator from "components/ycombinator.jpg"
+import Alchemist from "components/thealchemist.jpeg"
+import WBW from "components/wbw.png"
+import DoingGood from "components/doinggoodbetter.jpg"
+import SelfReliance from "components/selfreliance.jpg"
 
 
 import Divider from 'components/Divider'

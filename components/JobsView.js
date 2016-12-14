@@ -4,12 +4,12 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from "react-helmet"
 import { config } from 'config'
 import Job from 'components/Job'
-import Gboard from "./gboard.png"
-import AdMob from "./admob.png"
-import SMSmart from "./smsmart.png"
-import KPCB from "./kpcb.png"
-import Coursera from "./coursera.png"
-import Redfin from "./redfin.jpeg"
+import Gboard from "components/gboard.png"
+import AdMob from "components/admob.png"
+import SMSmart from "components/smsmart.png"
+import KPCB from "components/kpcb.png"
+import Coursera from "components/coursera.png"
+import Redfin from "components/redfin.jpeg"
 
 
 import Divider from 'components/Divider'
@@ -18,7 +18,7 @@ import Divider from 'components/Divider'
 export default class JobsView extends React.Component {
   render () {
     return (
-        <div> 
+        <div style={{textAlign:"center"}}> 
         <Job img_url={prefixLink(Gboard)} url="https://itunes.apple.com/us/app/gboard-new-keyboard-from-google/id1091700242?mt=8" name="Gboard - Google" position = "Associate Product Manager - Current" desc ="l am the product manager for Gboard, 
         the world’s best iOS keyboard. &nbsp;I set the roadmap and 
         collaborate with a team of brilliant engineers to move fast and build a beautiful product. &nbsp;We've been named one of Time's 50 Best of the Year.  "/>
